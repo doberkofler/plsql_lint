@@ -130,5 +130,4 @@ dmypy.json
 
 # Custom
 **/.DS_Store
-out
-*.g4
+gramma

@@ -4,9 +4,9 @@ import sys
 
 from antlr4 import InputStream, CommonTokenStream, ParseTreeWalker, ParserRuleContext
 
-from out.PlSqlLexer import PlSqlLexer
-from out.PlSqlParserListener import PlSqlParserListener
-from out.PlSqlParser import PlSqlParser
+from gramma.PlSqlLexer import PlSqlLexer
+from gramma.PlSqlParserListener import PlSqlParserListener
+from gramma.PlSqlParser import PlSqlParser
 
 class PlSqlParserListenerDebug(PlSqlParserListener):
 	def __init__(self):
